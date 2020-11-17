@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/evert
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/evert/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_imx386.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386.json \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_imx386_mono.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386_mono.json \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7sa.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7sa.json \
