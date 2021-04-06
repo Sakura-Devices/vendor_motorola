@@ -7,48 +7,48 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
-    vendor/motorola/nash/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
-    vendor/motorola/nash/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/motorola/nash/proprietary/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
-    vendor/motorola/nash/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
-    vendor/motorola/nash/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/motorola/nash/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
-    vendor/motorola/nash/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
-    vendor/motorola/nash/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
-    vendor/motorola/nash/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
-    vendor/motorola/nash/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
-    vendor/motorola/nash/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
-    vendor/motorola/nash/proprietary/lib/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-iopd-client_system.so \
-    vendor/motorola/nash/proprietary/lib/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-perfd-client_system.so \
-    vendor/motorola/nash/proprietary/lib/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util_system.so \
-    vendor/motorola/nash/proprietary/lib/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti_performance.so \
-    vendor/motorola/nash/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
-    vendor/motorola/nash/proprietary/lib/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcodecv4l2.so \
-    vendor/motorola/nash/proprietary/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcommonutils.so \
-    vendor/motorola/nash/proprietary/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdconfigutils.so \
-    vendor/motorola/nash/proprietary/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmminterface.so \
-    vendor/motorola/nash/proprietary/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsink.so \
-    vendor/motorola/nash/proprietary/lib/libwfdmmsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsrc.so \
-    vendor/motorola/nash/proprietary/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdrtsp.so \
-    vendor/motorola/nash/proprietary/lib/libwfdservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdservice.so \
-    vendor/motorola/nash/proprietary/lib/libwfdsm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdsm.so \
-    vendor/motorola/nash/proprietary/lib/libwfdtalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdtalsa.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcinterface.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsink.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
-    vendor/motorola/nash/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/motorola/nash/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
-    vendor/motorola/nash/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
-    vendor/motorola/nash/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/motorola/nash/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
-    vendor/motorola/nash/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
-    vendor/motorola/nash/proprietary/lib64/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-iopd-client_system.so \
-    vendor/motorola/nash/proprietary/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-perfd-client_system.so \
-    vendor/motorola/nash/proprietary/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util_system.so \
-    vendor/motorola/nash/proprietary/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti_performance.so \
-    vendor/motorola/nash/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
-    vendor/motorola/nash/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
+    vendor/motorola/nash/proprietary/system/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
+    vendor/motorola/nash/proprietary/system/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
+    vendor/motorola/nash/proprietary/system/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
+    vendor/motorola/nash/proprietary/system/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
+    vendor/motorola/nash/proprietary/system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/motorola/nash/proprietary/system/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
+    vendor/motorola/nash/proprietary/system/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
+    vendor/motorola/nash/proprietary/system/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
+    vendor/motorola/nash/proprietary/system/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
+    vendor/motorola/nash/proprietary/system/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
+    vendor/motorola/nash/proprietary/system/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
+    vendor/motorola/nash/proprietary/system/lib/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-iopd-client_system.so \
+    vendor/motorola/nash/proprietary/system/lib/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-perfd-client_system.so \
+    vendor/motorola/nash/proprietary/system/lib/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util_system.so \
+    vendor/motorola/nash/proprietary/system/lib/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti_performance.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcodecv4l2.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcommonutils.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdconfigutils.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmminterface.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsink.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdmmsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsrc.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdrtsp.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdservice.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdsm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdsm.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfdtalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdtalsa.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcinterface.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsink.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
+    vendor/motorola/nash/proprietary/system/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
+    vendor/motorola/nash/proprietary/system/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
+    vendor/motorola/nash/proprietary/system/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
+    vendor/motorola/nash/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/motorola/nash/proprietary/system/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
+    vendor/motorola/nash/proprietary/system/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
+    vendor/motorola/nash/proprietary/system/lib64/libqti-iopd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-iopd-client_system.so \
+    vendor/motorola/nash/proprietary/system/lib64/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-perfd-client_system.so \
+    vendor/motorola/nash/proprietary/system/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util_system.so \
+    vendor/motorola/nash/proprietary/system/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti_performance.so \
+    vendor/motorola/nash/proprietary/system/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
+    vendor/motorola/nash/proprietary/system/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
     vendor/motorola/nash/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/motorola/nash/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/motorola/nash/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
@@ -702,24 +702,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/motorola/nash/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/nash/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/motorola/nash/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
-    vendor/motorola/nash/proprietary/etc/permissions/com.motorola.aov.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.aov.xml \
-    vendor/motorola/nash/proprietary/etc/permissions/com.motorola.mod.protocols.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod.protocols.xml \
-    vendor/motorola/nash/proprietary/etc/permissions/com.motorola.mod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod.xml \
-    vendor/motorola/nash/proprietary/etc/permissions/com.motorola.mod_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_config.xml \
-    vendor/motorola/nash/proprietary/etc/permissions/com.motorola.mod_v2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_v2.xml \
-    vendor/motorola/nash/proprietary/etc/permissions/privapp-permissions-com.motorola.modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.modservice.xml \
-    vendor/motorola/nash/proprietary/etc/permissions/privapp-permissions-com.motorola.projectormod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.projectormod.xml \
-    vendor/motorola/nash/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml \
-    vendor/motorola/nash/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.projectormod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.projectormod.xml \
+    vendor/motorola/nash/proprietary/system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
+    vendor/motorola/nash/proprietary/system/etc/permissions/com.motorola.aov.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.aov.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/com.motorola.mod.protocols.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod.protocols.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/com.motorola.mod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/com.motorola.mod_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_config.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/com.motorola.mod_v2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_v2.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/privapp-permissions-com.motorola.modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.modservice.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/privapp-permissions-com.motorola.projectormod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.projectormod.xml \
+    vendor/motorola/nash/proprietary/system/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml \
+    vendor/motorola/nash/proprietary/system/etc/sysconfig/hiddenapi-whitelist-com.motorola.projectormod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.projectormod.xml \
     vendor/motorola/nash/proprietary/vendor/etc/zaf/zaf_imx386.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386.json \
     vendor/motorola/nash/proprietary/vendor/etc/zaf/zaf_imx386_mono.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386_mono.json \
     vendor/motorola/nash/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7sa.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7sa.json \
     vendor/motorola/nash/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
     vendor/motorola/nash/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
-    vendor/motorola/nash/proprietary/lib64/libmodhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmodhw.so \
-    vendor/motorola/nash/proprietary/lib64/libvibratorhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvibratorhw.so \
-    vendor/motorola/nash/proprietary/lib64/motorola.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/motorola.hardware.vibrator@1.0.so \
+    vendor/motorola/nash/proprietary/system/lib64/libmodhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmodhw.so \
+    vendor/motorola/nash/proprietary/system/lib64/libvibratorhw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvibratorhw.so \
+    vendor/motorola/nash/proprietary/system/lib64/motorola.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/motorola.hardware.vibrator@1.0.so \
     vendor/motorola/nash/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/nash/proprietary/vendor/bin/hw/motorola.hardware.health@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.health@1.0-service \
     vendor/motorola/nash/proprietary/vendor/bin/mods_camd:$(TARGET_COPY_OUT_VENDOR)/bin/mods_camd \
@@ -1086,8 +1086,8 @@ PRODUCT_COPY_FILES += \
 
 # Moto Dolby
 PRODUCT_COPY_FILES += \
-    vendor/motorola/nash/proprietary/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dolby.daxservice.xml \
-    vendor/motorola/nash/proprietary/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dolby.daxservice.xml \
+    vendor/motorola/nash/proprietary/system/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
     vendor/motorola/nash/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@1.0-service \
     vendor/motorola/nash/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/motorola/nash/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
