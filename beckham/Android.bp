@@ -8,7 +8,7 @@ soong_namespace {
 android_app_import {
 	name: "ModFmwkProxyService",
 	owner: "motorola",
-	apk: "proprietary/priv-app/ModFmwkProxyService/ModFmwkProxyService.apk",
+	apk: "proprietary/system/priv-app/ModFmwkProxyService/ModFmwkProxyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -19,7 +19,7 @@ android_app_import {
 android_app_import {
 	name: "ModService",
 	owner: "motorola",
-	apk: "proprietary/priv-app/ModService/ModService.apk",
+	apk: "proprietary/system/priv-app/ModService/ModService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -30,7 +30,7 @@ android_app_import {
 android_app_import {
 	name: "ProjectorApp",
 	owner: "motorola",
-	apk: "proprietary/priv-app/ProjectorApp/ProjectorApp.apk",
+	apk: "proprietary/system/priv-app/ProjectorApp/ProjectorApp.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
